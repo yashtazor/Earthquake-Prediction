@@ -1,4 +1,4 @@
-# Earthquake-Prediction
+# Earthquake Prediction and Evacuation
 
 This is a project under the 'Algorithms' course. 
 The goal of our project was to try to create a ML model manually without using any external libraries like SciKitLearn.

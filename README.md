@@ -5,10 +5,12 @@ The goal of our project was to try to create a ML model manually without using a
 
 ##### What does the flow of control look like?
 
-1. We constructed a manual Linear Regression Model by solving unknowns of the equations we generated ourselves by finding
-the unknowns given a set of s & p values which are the two types of earthquake waves.
+1. We constructed a manual Linear Regression Model by solving unknowns (which are actually the epicentre distances from the point of consideration) of the equations we generated ourselves by finding the unknowns given a set of s & p values which are the two types of earthquake waves.
 2. Then we generated some random amplitudes and then calculated the range by subtracting the maximum and minimum magnitude 
-distances.
+distances. The magnitudes were calculated according to this formula
+
+ML = logA + 2.56logD - 1.67
+
 3. Having detected the range, we used the max flow algorithm to evacuate the population as fast as possible and in the most
 efficient manner. They were evacuated to the closest node out the earthquake range calculated in the previous point.
 

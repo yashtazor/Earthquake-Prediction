@@ -12,7 +12,13 @@ distances. The magnitudes were calculated according to this formula
 #### ML = logA + 2.56logD - 1.67
 
 3. Having detected the range, we used the max flow algorithm to evacuate the population as fast as possible and in the most
-efficient manner. They were evacuated to the closest node out the earthquake range calculated in the previous point.
+efficient manner. They were evacuated to the closest node out the earthquake range calculated in the previous point. A Neo4J graph
+database was used to store places where every place was represented by a single node.
+
+For additional reading, please refer the following in order.
+
+1. http://www.geo.mtu.edu/UPSeis/locating.html
+2. https://www.bgs.ac.uk/discoveringGeology/hazards/earthquakes/magnitudeScaleCalculations.html
 
 ### NOTE
 
